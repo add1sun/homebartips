@@ -10,17 +10,9 @@ title: Home Bar Tips
 email: webmaster@homebartips.com
 description: >
   A podcast about the craft of drinks in your kitchen.
-logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://homebartips.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
-
-name: 'Addison Berry'
-bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
-author_image: "/assets/images/author.jpg"
-twitter_username: homebartips 
 
 # Google Analytics
 analytics_id: "UA-98667695-1"
@@ -67,3 +59,6 @@ defaults:
       type: ingredient
     values:
       layout: page
+
+sass:
+    style: compressed 
