@@ -105,8 +105,17 @@ body {
   cursor: pointer;
 }
 
-#nav {
+#sidebar {
   width: 10em;
+
+  .social {
+    font-size: .8em;
+    margin-left: 20px;
+    li {
+      margin: 0 3px;
+    }
+  }
+    
 }
 
 .menu-close {
