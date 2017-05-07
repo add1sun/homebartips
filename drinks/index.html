@@ -1,0 +1,10 @@
+---
+layout: page
+title: Drinks
+---
+
+<ul>
+  	{% for post in site.recipe %}
+  		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  	{% endfor %}
+</ul>

@@ -1,7 +1,5 @@
 ---
-layout: recipe
-
-name: 'Old Fashioned'
+title: Old Fashioned
 embed_handle: old_fashioned
 ---
 

@@ -35,9 +35,35 @@ gems:
   - jekyll-paginate
 
 collections:
-  ingredients:
+  ingredient:
     output: true
-    permalink: /ingredient/:path/
-  recipes:
+    permalink: /ingredients/:path/
+  recipe:
     output: true
-    permalink: /recipe/:path/
+    permalink: /drinks/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: recipe
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: ingredient
+    values:
+      layout: page
