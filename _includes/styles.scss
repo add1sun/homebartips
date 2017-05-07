@@ -202,7 +202,6 @@ body {
   padding: $rs * 3 0;
   width: 100%;
   max-width: 1000px;
-  font-size: $rs / 4 * 3;
   text-align: center;
   color: #999999;
   line-height: $rs * 1.1;
@@ -226,24 +225,28 @@ body {
 }
 
 .fa-facebook:before {
-    content: "\f09a";
+  content: "\f09a";
 }
 .fa-twitter:before {
-    content: "\f099";
+  content: "\f099";
 }
 .fa-instagram:before {
-    content: "\f303";
+  content: "\f16d";
 }
 .fa-rss:before {
-    content: "\f09e";
+  content: "\f09e";
 }
 .fa-bars:before {
-    content: "\f0c9";
+  content: "\f0c9";
+}
+.fa-itunes:before {
+  content: "\f001";
 }
 
 .social {
     margin: 1.5rem 0;
     padding: 0;
+    font-size: 2em;
 }
 .social li {
     display: inline-block;
