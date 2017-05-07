@@ -106,11 +106,11 @@ body {
 }
 
 #sidebar {
-  width: 10em;
+  width: 15em;
 
   .social {
     font-size: .8em;
-    margin-left: 20px;
+    margin-left: 40px;
     li {
       margin: 0 3px;
     }
@@ -118,17 +118,31 @@ body {
     
 }
 
+#nav {
+  font-size: 1.2em;
+  ul {
+    margin: 0;
+
+    li {
+      list-style: none;
+      padding: 2px 0;
+
+      a {
+        text-decoration: none;
+        color: #555;
+          &:hover {
+            color: #000
+          }
+      }
+    }
+  }
+}
+
 .menu-close {
   cursor: pointer;
   display: block;
-  height: 3.25em;
-  line-height: 3.25em;
-  padding-right: 1.25em;
-  right: 0;
+  padding: 1.25em;
   text-align: right;
-  top: 0;
-  vertical-align: middle;
-  width: 7em;
 
   &:before {
     font-size: 1.25em;
