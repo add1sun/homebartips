@@ -25,13 +25,13 @@ Many people do not like the whole group of classic vermouth-based drinks because
 Older recipes call for bitters, orange in particular, which you can play with. I like them in mine. While everyone is familiar with the olive as the traditional garnish, they were also served with lemon twists originally. The 2 garnishes change the feel of the drink, and are worth playing with as well.
 
 ## Recipe
-<recipe>
-<p>3 oz. cocktail glass, served up</p>
-	<ul>
-		<li>2.25 oz. gin</li>
-		<li>.75 oz dry vermouth</li>
-		<li>1 dash orange bitters (optional)</li>
-		<li>garnish: lemon twist or olive</li>
-	</ul>
-	<p>Stir gin, vermouth, and bitters in a mixing glass with ice. Strain into glass and garnish.</p>
-</recipe>
+
+*Served up, 3 ounces*
+
+- 2.25 oz. gin
+- .75 oz dry vermouth
+- 1 dash orange bitters (optional)
+- garnish: lemon twist or olive
+
+Stir gin, vermouth, and bitters in a mixing glass with ice. Strain into glass and garnish.
+
