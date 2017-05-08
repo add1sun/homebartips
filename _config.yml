@@ -30,7 +30,7 @@ collections:
   ingredient:
     output: true
     permalink: /ingredients/:path/
-  recipe:
+  drink:
     output: true
     permalink: /drinks/:path/
 
@@ -50,7 +50,7 @@ defaults:
   -
     scope:
       path: ""
-      type: recipe
+      type: drink
     values:
       layout: page
   -
