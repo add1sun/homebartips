@@ -12,7 +12,7 @@ You have tequila and you have lime juice. The classic sweetener for a Margarita 
 ## Recipe
 Aside from the basic ingredients, there is also the question of ratio. My preferred ratio is 3:2:1 when using a pure sweetener (simple syrup or agave) and 2:1:1 when using triple sec. That gives me:
 
-*Served up or on the rocks*
+*Served up or on the rocks, 3 oz.*
 
 - 1.5 oz. tequila
 - 1 oz. lime juice

@@ -9,11 +9,11 @@ The White Russian is a beloved, easy drink. It was one of the first cocktails I 
 
 ## Recipe
 
-*Served on the rocks*
+*Served on the rocks, 3 oz.*
 
-- 1 1/2 ounces vodka
-- 3/4 ounce coffee liqueuer (Kahlua)
-- 3/4 ounce cream
+- 1 1/2 oz. vodka
+- 3/4 oz. coffee liqueur (like Kahlua)
+- 3/4 oz. cream
 
 There are several ways of mixing this up, depending on who you talk to. I like to layer the drink because it looks cooler, but to each their own.
 

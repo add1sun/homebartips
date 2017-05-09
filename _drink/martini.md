@@ -26,7 +26,7 @@ Older recipes call for bitters, orange in particular, which you can play with. I
 
 ## Recipe
 
-*Served up, 3 ounces*
+*Served up, 3 oz.*
 
 - 2.25 oz. gin
 - .75 oz dry vermouth
