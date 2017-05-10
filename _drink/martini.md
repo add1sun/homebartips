@@ -3,7 +3,7 @@ title: Martini
 embed_handle: martini
 ---
 
-<amp-img width="640" height="427" layout="responsive" src="{{ site.baseurl }}{% link assets/images/martini.jpg %}"></amp-img>
+<amp-img width="640" height="427" layout="responsive" src="/assets/images/martini.jpg"></amp-img>
 
 This is an iconic drink that's name has been distorted by the flavored vodka world. I'm going to leave that alone and just move on. Here, I am talking about the real, classic Martini that is composed of gin and vermouth. (As a note the Vodka Martini actually has its own name as a drink, the Kangaroo, but the vodka version is so common now that, sadly, I often have to ask for the gin, instead of the reverse being true.) The modern age has also dried Martinis out to the point where you are pretty much just getting a chilled shot of gin. While I like gin, the Martini is such a better cocktail than that.
 

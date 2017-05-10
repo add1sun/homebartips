@@ -3,7 +3,7 @@ title: Old Fashioned
 embed_handle: old_fashioned
 ---
 
-<amp-img width="800" height="527" layout="responsive" src="{{ site.baseurl }}{% link assets/images/oldfashioned.jpg %}"></amp-img>
+<amp-img width="800" height="527" layout="responsive" src="/assets/images/oldfashioned.jpg"></amp-img>
 
 The Old Fashioned name came about in the 1880s, but comes from much earlier in the century. Originally in the early 1800s there was a newfangled drink called a "cocktail," which involved adding a little sweetener and some bitters to your shot of liquor. This was the extent of the original definition of a cocktail. Things started to get a little fancier over the decades though, and people were adding all kinds of things to cocktails. Later on, if you wanted just a good, ol' original cocktail, you needed to order yourself an old-fashioned cocktail.
 
