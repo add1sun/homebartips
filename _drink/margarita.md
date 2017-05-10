@@ -3,7 +3,7 @@ title: Margarita
 embed_handle: margarita
 ---
 
-<amp-img width="800" height="534" layout="responsive" src="/assets/images/margarita.jpg"></amp-img>
+<amp-img width="800" height="534" layout="responsive" src="{{ site.baseurl }}{% link assets/images/margarita.jpg %}"></amp-img>
 
 There are a few things to play with in a Margarita: the type of tequila, sweetener, and ratio of ingredients. If you are wondering where the fruit is, we have lime, but that's it (and please use fresh-squeezed juice). I'm talking about real, classic Margaritas, not the slushy, fruity drinks that are based on the original Margarita.
 
