@@ -228,13 +228,15 @@ body {
   max-width: $width;
   text-align: center;
   color: #999999;
-  line-height: $rs * 1.1;
   a {
     color: #666666;
     text-decoration: none;
     &:hover {
       color: #333333;
     }
+  }
+  .inner {
+    font-size: .8em;
   }
 }
 
