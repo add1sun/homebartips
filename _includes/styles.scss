@@ -7,6 +7,7 @@ $rs: 16px;
 $font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
 $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 $width: 800px;
+$font-fancy: 'Cherry Swash', cursive;
 
 /* Mixins */
 @mixin respond-to($breakpoint) {
@@ -66,12 +67,13 @@ body {
   position: relative;
   width: 100%;
   max-width: $width;
+  height: 200px;
   margin: 0 auto 0 auto;
-  padding: 20px;
-  background: #333;
+  padding: 40px;
+  background: url(/assets/images/empty-glass.jpg) center no-repeat;
   @include box-sizing(border-box);
   @include respond-to(800) {
-    padding: 0 $rs * 1;
+    padding: 20px $rs * 1;
   }
 
   a {
@@ -84,7 +86,9 @@ body {
     }
 
     h1 {
-      margin: 0;
+      margin: 20px 0 0 0;
+      font-family: $font-fancy;
+      font-size: 3em;
     }
 
   .page-links {
@@ -339,8 +343,6 @@ body {
     p {
       line-height: 1.59;
       letter-spacing: -.002em;
-      margin-top: 30px;
-      margin-bottom: 0;
       color: #333333;
       -webkit-hyphens: auto;
       -moz-hyphens: auto;
@@ -350,8 +352,14 @@ body {
       color: #333333;
       text-decoration: underline;
     }
-    amp-img, amp-youtube {
+    amp-img {
       margin-top: 30px;
+    }
+    amp-audio {
+      xmargin-top: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px; /* future proofing */
     }
     figure {
       margin: 0;
@@ -394,7 +402,6 @@ body {
     li {
       padding: 0;
       margin-left: 30px;
-      margin-bottom: 12px;
       padding-top: 2px;
       p {
         padding: 0 0 golden-ratio(1rem, 1);
@@ -402,6 +409,21 @@ body {
     }
     ol li {
       list-style-type: decimal;
+    }
+    .player {
+      height: 52px;
+      margin-top: 20px;
+      padding: 20px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px; /* future proofing */
+      background: url(/assets/images/glassback.jpg) bottom no-repeat;
+      p {
+        margin: 10px 0 0 13px;
+        color: #ddd;
+        font-family: $font-sans;
+        font-size: .7em;
+      }
     }
   }
 }
