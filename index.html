@@ -4,6 +4,10 @@ layout: default
 
 <main class="content" role="main">
 
+<div id="about">
+    <p>A podcast about drinking the good life in your own kitchen.</p>
+  </div> 
+
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
@@ -11,6 +15,11 @@ layout: default
           <header class="post-header">
             <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
           </header>
+          <amp-audio width="auto" height="32" src="//traffic.libsyn.com/homebartips/{{ post.episode_url }}.mp3">
+            <div fallback>
+            <p>Your browser doesn’t support HTML5 audio. To listen to this podcast, check it out in iTunes or <a href="//traffic.libsyn.com/homebartips/{{ page.episode_url }}.mp3">download it directly</a>.</p>
+            </div>
+          </amp-audio>
           <section class="post-excerpt" itemprop="description">
             <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>

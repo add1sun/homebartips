@@ -43,6 +43,10 @@ $font-fancy: 'Cherry Swash', cursive;
   font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-fancy;
+}
+
 /* Main Styles */
 main {
   display: block;
@@ -50,7 +54,7 @@ main {
 
 body {
   background-color: #fff;
-  font-family: $font-sans;
+  font-family: $font-serif;
   font-size:  16px;
   margin: 0;
   padding: 0;
@@ -86,6 +90,7 @@ body {
     }
 
     h1 {
+      height: 100px;
       margin: 20px 0 0 0;
       font-family: $font-fancy;
       font-size: 3em;
@@ -158,10 +163,22 @@ body {
 
 }
 
+#about {
+  padding: 5px;
+  background: #333;
+  color: #ddd;
+  font-family: $font-fancy;
+  font-size: 1.2em;
+  text-align: center;
+  p {
+    margin: 5px;
+  }
+}
+
 .content {
   width: 100%;
   max-width: $width;
-  margin: 25px auto 0 auto;
+  margin: 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding: 0 $rs * 1;
@@ -290,6 +307,13 @@ body {
     color: #333;
 }
 
+amp-audio {
+  margin-top: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+}
+
 /* Posts */
 .post {
   .post-meta {
@@ -329,9 +353,6 @@ body {
     width: 100%;
     font-family: $font-serif;
     color: #333333;
-    h1, h2, h3, h4, h5, h6 {
-      font-family: $font-sans;
-    }
     table {
       border-collapse: collapse;
     }
@@ -354,12 +375,6 @@ body {
     }
     amp-img {
       margin-top: 30px;
-    }
-    amp-audio {
-      xmargin-top: 10px;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px; /* future proofing */
     }
     figure {
       margin: 0;
